@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #969d9f;
+}
+
+header img.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Card Container */
+/* Center align text */
+header, .welcome h1, .welcome p, footer {
+    text-align: center;
+}
+
+/* Justify paragraphs */
+.welcome p {
+    text-align: justify;
+}
+
+/* Optional: Adjust card content text alignment */
+.card-content p {
+    text-align: justify;
+}
+/* Add padding to the body for space on the left and right */
+body {
+    padding-left: 20px;   /* Adjust this value as needed */
+    padding-right: 20px;  /* Adjust this value as needed */
+}
+
+/* Optional: Add extra space to specific sections */
+header, .welcome, .destinations, footer {
+    padding-left: 30px;   /* Adjust as needed */
+    padding-right: 30px;  /* Adjust as needed */
+}
+
+/* Optional: Increase spacing for the text in the welcome section */
+.welcome p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.destinations {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Card Styling */
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Image */
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Card Content */
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-content h2 {
+    font-size: 22px;
+    color: #007bff;
+    margin: 10px 0;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+ul.places {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+    text-align: center;
+}
+
+ul.places li {
+    margin: 10px 0;
+}
+
+ul.places a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+/* Social Media Icons */
+.social-media {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.social-icon img {
+    width: 24px; /* Ukuran ikon lebih kecil */
+    height: 24px;
+    margin-right: 8px; /* Spasi antara ikon dan teks */
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.social-icon span {
+    font-size: 14px;
+    color: white;
+}
+
+.social-icon:hover img {
+    transform: scale(1.2); /* Efek hover untuk ikon */
+    opacity: 0.8;
+}
+
+.social-icon:hover span {
+    color: #00d1b2; /* Warna teks berubah saat hover */
+}
